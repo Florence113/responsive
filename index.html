@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <div class="top-left">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching 
+                scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="top-right">
+            <p>Try it free 7 days then $20/mo.thereafter</p>
+            <form action="" class="form">
+                <div class="input-grp error">
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <span><img src="./images/icon-error.svg" alt=""></span>
+                    <div class="errorMsg">First Name cannot be empty</div>
+                </div>
+                <div class="input-grp error">
+                    <input type="text" name="LastName" placeholder="Last Name" required>
+                    <span><img src="./images/icon-error.svg" alt=""></span>
+                    <div class="errorMsg">Last Name cannot be empty</div>
+                </div>
+               <div class="input-grp error">
+                    <input type="email" name="email" placeholder="Email Address"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    <span><img src="./images/icon-error.svg" alt=""></span>
+                    <div class="errorMsg">Looks like this is not an email</div>
+               </div>
+               <div class="input-grp error">
+                    <input type="password" name="password" placeholder="Password" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}}" required>
+                    <span><img src="./images/icon-error.svg" alt=""></span>
+                    <div class="errorMsg">Password cannot be empty</div>
+               </div>
+              
+                <div class="btn">
+                    <button>CLAIM YOUR FREE TRIAL</button>
+                    <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
